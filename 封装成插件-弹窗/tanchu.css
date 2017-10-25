@@ -1,0 +1,22 @@
+#div1{
+	width: 400px;
+	height: 200px;
+	background-color: white;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin: -100px 0 0 -200px;
+}
+#p1{
+	background-color: black;
+	width: 40px;
+	height: 20px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: center;
+	line-height: 15px;
+	font-size: 20px;
+	color: white;
+	font-weight: bolder;
+}
