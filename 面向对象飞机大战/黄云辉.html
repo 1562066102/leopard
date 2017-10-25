@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		a{
+			cursor: pointer;
+		}
+		#main{
+			width: 320px;
+			height: 568px;
+			background-image: url(background_1.png);
+			margin: 30px 0 0 400px;
+			position: relative;
+			overflow: hidden;
+		}
+		#main img{
+			position: absolute;
+		}
+		#div1{
+			width: 320px;
+			height: 568px;
+			background-image: url(strat.png);
+			padding-top: 1px;
+		}
+		#div1 a{
+			width:  150px;
+			height:  50px;
+			text-align: center;
+			line-height: 50px;
+			display: block;
+			color: black;
+			text-decoration: none;
+			font-size: 30px;
+			border: 1px solid black;
+			border-radius: 20px;
+			margin: 300px 0 0 80px; 
+		}
+		p{
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			display: none;
+		}
+		#ul1{
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -100px 0 0 -100px;
+			list-style: none;
+			font-size: 30px;
+			display: none;
+			z-index: 999;
+		}
+		#ul1 li{
+			text-align: center;
+			width: 200px;
+			height: 50px;
+			line-height: 50px;
+			margin-bottom: 50px;
+
+		}
+		#li1{
+			border: 1px solid black;
+			border-radius: 20px;
+		}
+		#ul2{
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -100px 0 0 -100px;
+			list-style: none;
+			font-size: 30px;
+			display: none;
+		}
+		#ul2 li{
+			text-align: center;
+			width: 200px;
+			height: 50px;
+			line-height: 50px;
+			margin-top: 10px;
+			border: 1px solid black;
+			border-radius: 20px;
+		}
+	</style>
+</head>
+<body>
+<div id="main">
+	<div id="div1">
+	<a href="javascript:;" id="a1">开始游戏</a>
+	</div>
+	<p id="p1">分数：<span id="span">0</span></p>
+	<ul id="ul1">
+	<li>GAME OVER</li>
+	<li id="li1">返回主菜单</li>
+	</ul>
+	<ul id="ul2">
+		<li id="li2">继续游戏</li>
+		<li id="li3">重开游戏</li>
+		<li id="li4">返回主菜单</li>
+	</ul>
+</div>
+<script type="text/javascript" src = "js.js"></script>
+</body>
+</html>
